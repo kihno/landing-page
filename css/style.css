@@ -69,6 +69,12 @@ a{
     border-radius: 4px;
 }
 
+.shop-now:hover,
+.sign-up:hover{
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px #0036ac;
+}
+
 .shop-now{
     border: none;
 }
@@ -121,16 +127,9 @@ a{
     text-align: center;
 }
 
-
-.box{
-    border: 2px solid #2882f6;
-    border-radius: 10px;
-    width: 100px;
-    height: 100px;
-}
-
 .thumb{
-    border-radius: 10px;
+    border: 2px solid #2882f6;
+    border-radius: 10px;border-radius: 10px;
 }
 
 .quote-container{
@@ -142,7 +141,7 @@ a{
 }
 
 .quote{
-    padding: 50px;
+    padding: 100px;
     width: 700px;
 }
 
@@ -159,6 +158,11 @@ a{
 .cta{
     display: flex;
     justify-content: center;
+    padding: 50px;
+}
+
+.text{
+    padding: 20px;
 }
 
 .cta-title{
@@ -175,6 +179,7 @@ a{
     color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 20px;
     padding: 20px 0 20px 0;
     border-radius: 5px;
@@ -184,5 +189,7 @@ a{
 footer{
     background-color: #1f2937;
     color: white;
+    font-size: 12px;;
     text-align: center;
+    padding: 20px;
 }
